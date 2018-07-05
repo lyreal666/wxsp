@@ -1,0 +1,14 @@
+<view class="nav-container">
+    <view 
+        class="nav-tab-container" 
+        wx:for="{{ tabs }}" 
+        wx:key="index"
+        bindtap="showUnderLine"
+        data-index="{{ index }}"
+    >       
+        <view class="{{ selected === index ? 'nav-tab-actived' : 'nav-tab-inactive' }}" bindtap="tabActived">
+            <text >{{ item }}</text>
+        </view>
+        <text class="under-line" wx:if="{{ selected === index }}">_</text>
+    </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "科目一理论考试",
+  "usingComponents": {
+    "nav": "/components/nav/nav"
+  }
+}

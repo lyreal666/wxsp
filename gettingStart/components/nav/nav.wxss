@@ -1,0 +1,30 @@
+.nav-container {
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.nav-tab-container {
+    width: 25%;
+    text-align: center;
+}
+
+.nav-tab-inactived {
+    color: gray;
+    font-size: 16px;
+}
+
+.nav-tab-actived {
+    color: black;
+    font-size: 18px;
+}
+
+.under-line {
+    display: block;
+    margin-top: -25px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+     
+}
