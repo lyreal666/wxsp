@@ -1,0 +1,23 @@
+<view class="test-card-container">
+    <view class="test-card-left">
+        <block wx:for="{{ leftIcons }}">
+            <text-icon 
+                class="leftIcon"
+                text="{{ item.text }}"
+                iconType="{{ item.iconType }}"
+            >
+            </text-icon>
+        </block>
+    </view>
+    <view class="test-card-middle"></view>
+    <view class="test-card-right">
+        <block wx:for="{{ rightIcons }}">
+            <text-icon 
+                class="rightIcon"
+                text="{{ item.text }}"
+                iconType="{{ item.iconType }}"
+            >
+            </text-icon>
+        </block>
+    </view>
+</view>

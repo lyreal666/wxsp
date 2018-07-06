@@ -1,0 +1,4 @@
+<view class="text-icon-container">
+    <text class="{{ 'iconfont' + iconType }}"></text>
+    <text>{{ text }}</text>
+</view>
