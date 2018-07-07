@@ -7,6 +7,10 @@ Component({
         iconType: {
             type: String,
             value: 'icon-picture:before'
+        },
+        iconHeight: {
+            type: Number,
+            value: 50
         }
     },
     data: {

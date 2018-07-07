@@ -1,7 +1,12 @@
 <!--index.wxml-->
-<view class="nav">
+<view class="index">
   <nav 
+    class="nav"
     tabs="{{ tabs }}"
   >
   </nav>
+  <content 
+    class="content"
+  >
+  </content>
 </view>

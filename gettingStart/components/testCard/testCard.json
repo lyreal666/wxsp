@@ -1,6 +1,7 @@
 {
     "component": true,
     "usingComponents": {
-        "textIcon": "/components/textIcon/textIcon"
+        "text-icon": "/components/textIcon/textIcon",
+        "ec-canvas": "/components/ec-canvas/ec-canvas"
     }
 }

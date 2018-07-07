@@ -1,17 +1,24 @@
-<view class="test-card-container">
+<view class="test-card-container" style="background-color: {{ bgColor }}">
     <view class="test-card-left">
-        <block wx:for="{{ leftIcons }}">
+        <block wx:for="{{ leftIcons }}" wx:key="{{ index }}">
             <text-icon 
-                class="leftIcon"
+                height="50"
                 text="{{ item.text }}"
                 iconType="{{ item.iconType }}"
             >
             </text-icon>
         </block>
     </view>
-    <view class="test-card-middle"></view>
+    <view class="test-card-middle">
+        <ec-canvas 
+            id="mychart-dom-bar" 
+            canvas-id="mychart-bar" 
+            ec="{{ chartObj }}"
+            >
+        </ec-canvas>
+    </view>
     <view class="test-card-right">
-        <block wx:for="{{ rightIcons }}">
+        <block wx:for="{{ rightIcons }}" wx:key="{{ index }}">
             <text-icon 
                 class="rightIcon"
                 text="{{ item.text }}"

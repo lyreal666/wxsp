@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+        "test-card": "/components/testCard/testCard",
+        "text-icon": "/components/textIcon/textIcon"
+    }
+}

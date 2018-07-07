@@ -1,6 +1,6 @@
 {
     "component": true,
     "usingComponents": {
-        "content": "/components/content/content"
+        "subject-one": "/components/subjectOne/subjectOne"
     }
 }

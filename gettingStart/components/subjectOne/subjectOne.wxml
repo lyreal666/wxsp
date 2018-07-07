@@ -1,0 +1,41 @@
+<view class="subject-one-container">
+    <test-card
+       left-icons="{{ leftIcons1 }}"
+       right-icons="{{ rightIcons1 }}"
+       bg-color="{{ bgColor1 }}"
+       chart-object="{{ chartObject1 }}"
+    >
+    </test-card>
+    <test-card
+       left-icons="{{ leftIcons2 }}"
+       right-icons="{{ rightIcons2 }}"
+       bg-color="{{ bgColor2 }}"
+       chart-object="{{ chartObject2 }}"
+    >
+    </test-card>
+    <view class="main-func">
+        <view class="icon-wrapper" wx:for="{{ iconsForMainFunc }}" wx:key="{{ index }}">
+            <text-icon
+                text="{{ item.text }}"
+                icon-type="{{ item.iconType }}"
+                icon-height="100"
+            >
+            </text-icon>
+        </view>
+    </view>
+    <view class="select-cars">
+        <view wx:for="{{ iconsForCars }}" class="select-car-item" wx:key="{{ index }}">
+            <view class="car-icon-wrapper">
+                <text-icon
+                text="{{ item.text }}"
+                icon-type="{{ item.iconType }}"
+                height="100"
+                >
+                </text-icon>
+            </view>
+            <text class="car-under-text">{{ item.underText }}</text>
+        </view>
+    </view>
+
+    
+</view>

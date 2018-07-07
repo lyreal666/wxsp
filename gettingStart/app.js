@@ -32,6 +32,7 @@ App({
         }
       }
     })
+    // 获取测试进度数据
   },
   globalData: {
     userInfo: null
